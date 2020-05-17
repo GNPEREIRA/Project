@@ -35,7 +35,7 @@ public class MainViewController implements Initializable{
 	
 	@FXML
 	public void onMenuItemSalasAction() {
-		System.out.println("Clicou salas");
+		loadView("/gui/RoomList.fxml");
 	}
 	
 	@FXML
